@@ -47,3 +47,8 @@ n=[],v=[];window.Typekit?(window.Typekit.fonts||(window.Typekit.fonts=[]),v=wind
 function Fa(a,b){if(a.b.length){for(var c=new A(a.g,b,{}),d=0;d<a.b.length;d++)a.b[d].init();c.i&&y(c.g,[c.b.b("wf","loading")]);C(c,"loading");for(c=0;c<a.b.length;c++)a.b[c].load(null,c==a.b.length-1,b);a.b=[]}};function Ga(){var a=m.ps,b=m.ht,c=Ha,d=m.a,e=m.kt,f=m.js,g=m.l;this.m=new G(m.ping);this.j=a;this.i=b;this.b=c||[];this.g=d||null;this.o=e||null;this.version=f||null;this.app=g||null}function Da(a){var b=new Image(1,1),c=!1;b.src=a;b.onload=function(){c=!0;b.onload=null};setTimeout(function(){c||(b.src="about:blank",b.onload=null)},3E3)};var Ia=new function(){var a=window;this.g=this.i=a;this.b=this.g.document};window.Typekit||(window.Typekit={});if(!window.Typekit.load){var V=new U(new G("//"+(window.Typekit.config||{}).hn+"/{id}.js"),Ia);window.Typekit.load=function(){V.load.apply(V,arguments)};window.Typekit.addKit=function(){V.i.apply(V,arguments)}}for(var W,m=window.Typekit.config||{},Ha=[],Ja=m.fc,Ka=0;Ka<Ja.length;Ka++)Ha.push(Ja[Ka].id);W=new T(Ia);m.ping&&(W.m=new Ga);
 if(m.fc)for(var X=m.fc,Z=0;Z<X.length;Z++)W.o.b.push(new ma(X[Z].family,X[Z].src,X[Z].descriptors));if(m.dl){var La=m.dl;try{W.j=new ha(La)}catch(a){}}m.kt&&(W.u=m.kt);m.token&&(W.i=m.token);if(m.c)for(var p=0;p<m.c.length;p+=2)W.g.push(new da);window.Typekit.addKit(W);if(window.WebFont)try{window.Typekit.load()}catch(a){};}(this,document));
 
+
+
+
+
+
